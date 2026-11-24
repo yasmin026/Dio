@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Clínica Lumière — Contato</title>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 16px; background-color: #ffffff; color: #1f2937;">
+
+    <!-- Seção 1: Cabeçalho e botões no meio da página -->
+    <div style="background-color: #d8d8d8; color: #ffffff; padding: 20px; border-radius: 8px; margin-bottom: 16px; text-align: center;">
+        <h1 style="margin: 0 0 6px 0; color: #ffa1cd;">Clínica Lumière</h1>
+        <p style="margin: 0 0 16px 0; color: #f180bf; font-family: sans-serif;"><i>Cuidado humano e preciso em cada etapa</i></p>
+
+        <ul style="list-style: none; padding: 0; margin: 0;">
+            <li style="display: inline; margin: 0 8px;"><a href="index.html" style="color: #ffadda;">Página Principal</a></li>
+            <li style="display: inline; margin: 0 8px;"><a href="sobre.html" style="color: #ffadda;">Sobre a Clínica</a></li>
+            <li style="display: inline; margin: 0 8px;"><a href="horarios.html" style="color: #ffadda;">Horário de Atendimento</a></li>
+            <li style="display: inline; margin: 0 8px;"><a href="contato.html" style="color: #ffa1cd; font-weight: bold;">Contato</a></li>
+        </ul>
+    </div>
+
+    <!-- Seção 2: Endereço e mapa -->
+    <div style="background-color: #d8d8d8; padding: 20px; border-radius: 8px; margin-bottom: 16px;">
+        <h2 style="margin-top: 0; color: #f180bf;">Localização e Telefones</h2>
+        <p><strong>Endereço:</strong> Av. Afonso Pena, 1450 — Centro, Belo Horizonte - MG<br>
+        <strong>Telefone / WhatsApp:</strong> (31) 3222-1900 / (31) 99888-4411</p>
+
+        <iframe src="https://www.google.com/maps?q=Avenida+Afonso+Pena+1450+Belo+Horizonte&output=embed" title="Localização da Clínica Lumière" width="600" height="260" loading="lazy"></iframe>
+    </div>
+
+    <!-- Seção 3: Formulário de contato -->
+    <div style="background-color: #d8d8d8; padding: 20px; border-radius: 8px; margin-bottom: 16px;">
+        <h2 style="margin-top: 0; color: #ffa683;">Envie uma mensagem</h2>
+
+        <form action="#" method="post">
+            <div style="margin-bottom: 12px;">
+                <label for="nome"><strong>Nome:</strong></label><br>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+
+            <div style="margin-bottom: 12px;">
+                <label for="email"><strong>E-mail:</strong></label><br>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div style="margin-bottom: 12px;">
+                <label for="telefone"><strong>Telefone / WhatsApp:</strong></label><br>
+                <input type="tel" id="telefone" name="telefone">
+            </div>
+
+            <div style="margin-bottom: 12px;">
+                <label for="assunto"><strong>Assunto / Especialidade:</strong></label><br>
+                <select id="assunto" name="assunto">
+                    <option value="clinica-geral">Agendamento — Clínica Geral</option>
+                    <option value="psicologia">Agendamento — Psicologia</option>
+                    <option value="nutricao">Agendamento — Nutrição</option>
+                    <option value="dermatologia">Agendamento — Dermatologia</option>
+                    <option value="duvidas">Dúvidas e Convênios</option>
+                </select>
+            </div>
+
+            <div style="margin-bottom: 12px;">
+                <strong>Preferência de turno:</strong><br>
+                <label><input type="radio" name="turno" value="manha"> Manhã</label>
+                <label><input type="radio" name="turno" value="tarde"> Tarde</label>
+                <label><input type="radio" name="turno" value="qualquer" checked> Qualquer horário</label>
+            </div>
+
+            <div style="margin-bottom: 12px;">
+                <strong>Informações adicionais:</strong><br>
+                <label><input type="checkbox" name="primeira_vez" value="sim"> Primeira consulta na clínica</label>
+                <label><input type="checkbox" name="retorno" value="sim"> Desejo confirmação por WhatsApp</label>
+            </div>
+
+            <div style="margin-bottom: 14px;">
+                <label for="mensagem"><strong>Mensagem:</strong></label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="40" required></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Enviar mensagem</button>
+                <button type="reset">Limpar formulário</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Seção 4: Rodapé -->
+    <div style="background-color: #d8d8d8; color: #2b2b2b; padding: 16px 20px; border-radius: 8px;">
+        <p style="margin: 0;"><strong>Clínica Lumière Saúde &amp; Bem-Estar</strong> — Av. Afonso Pena, 1450, Centro | Tel: (31) 3222-1900 | WhatsApp: (31) 99888-4411</p>
+        <small>Atendimento particular e principais convênios.</small>
+    </div>
+
+</body>
+</html>
